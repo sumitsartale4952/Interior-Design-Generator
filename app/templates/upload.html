@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Your Design</title>
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">InteriorAI</div>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/upload">Upload Design</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Upload Section with Background -->
+    <section class="upload-hero">
+        <div class="upload-container">
+            <h2>Upload Your Room Image</h2>
+            <form action="/upload" method="POST" enctype="multipart/form-data">
+                <label for="roomImage">Upload Your Room Image</label>
+                <input type="file" name="roomImage" id="roomImage" required><br><br>
+            
+                <label for="designPrompt">Describe your desired design:</label>
+                <input type="text" name="designPrompt" id="designPrompt" placeholder="e.g., Modern, Minimalist" required><br><br>
+            
+                <button type="submit">Generate Design</button>
+            </form>
+            
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <p>📧 Contact Us: <a href="ssartale6@gmail.com">ssartale6@gmail.com</a> | 📞 +91 9130674178</p>
+        <p>© 2024 Interior Design Generator. All Rights Reserved.</p>
+    </footer>
+
+    <script src="../static/js/scripts.js"></script>
+</body>
+</html>
