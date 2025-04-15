@@ -1,0 +1,29 @@
+# Flask for the web framework
+Flask==2.3.2
+
+# Transformers for the BLIP model
+transformers==4.31.0
+
+# Torch for running the model
+torch==2.0.1
+
+# PIL for image processing
+Pillow==9.5.0
+
+# Datasets for loading JSON datasets (if used in fine-tuning)
+datasets==2.14.4
+
+# Werkzeug for secure filename handling
+Werkzeug==2.3.6
+
+# Flask-Cors (optional, for API access)
+flask-cors==4.0.0
+
+# tqdm for progress bars during fine-tuning (optional)
+tqdm==4.65.0
+
+# torchvision for image utilities (optional but useful with PyTorch)
+torchvision==0.15.2
+
+# accelerate for optimized training on GPU (optional but recommended)
+accelerate==0.21.0
